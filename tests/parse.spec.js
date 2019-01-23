@@ -80,6 +80,7 @@ describe('parse', () => {
       LISTEN_PORT: '1234',
       WHITELIST: '[100,200,"300"]',
       PARAMS: '{"foo":"bar"}',
+      reg: '/a/g'
     }
     const schema = {
       LISTEN_PORT: joi.number().required(),

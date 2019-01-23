@@ -16,6 +16,7 @@
     "process.env",
     "parse",
     "format",
+    "environment",
     "environment-variables",
     "camel",
     "camelcase"
@@ -31,7 +32,6 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
-    "prettier": "^1.16.1"
+    "jest": "^23.6.0"
   }
 }
