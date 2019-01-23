@@ -1,0 +1,37 @@
+{
+  "name": "joi-env-parse",
+  "version": "1.0.0",
+  "description": "Validates and formats process.env using Joi schemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edus44/joi-env-parse.git"
+  },
+  "keywords": [
+    "joi",
+    "env",
+    "process.env",
+    "parse",
+    "format",
+    "environment-variables",
+    "camel",
+    "camelcase"
+  ],
+  "author": "edus44",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edus44/joi-env-parse/issues"
+  },
+  "homepage": "https://github.com/edus44/joi-env-parse#readme",
+  "dependencies": {
+    "joi": "^14.3.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "prettier": "^1.16.1"
+  }
+}
