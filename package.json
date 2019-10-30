@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/edus44/joi-env-parse#readme",
   "dependencies": {
-    "joi": "^14.3.1",
+    "@hapi/joi": "^14.3.1",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
