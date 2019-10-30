@@ -1,5 +1,4 @@
 const { format } = require('..')
-const joi = require('joi')
 
 describe('format', () => {
   it('should camel-case keys', () => {

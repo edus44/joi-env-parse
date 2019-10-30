@@ -1,5 +1,5 @@
 const { parse } = require('..')
-const joi = require('joi')
+const joi = require('@hapi/joi')
 
 describe('parse', () => {
   it('should clean env', () => {
