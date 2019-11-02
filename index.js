@@ -1,4 +1,4 @@
-const joi = require('joi')
+const joi = require('@hapi/joi')
 const { camelCase, mapKeys, mapValues, isPlainObject } = require('lodash')
 
 /**
@@ -14,7 +14,7 @@ function parse(fn, obj) {
 
   const schema = typeof fn === 'function' ? fn(joi) : fn
 
-  const { error, value } = joi.validate(obj, schema, { stripUnknown: true })
+  const { error, value } = joi.object(schema).validate(obj, { stripUnknown: true })
 
   if (error) throw error
 
@@ -22,7 +22,7 @@ function parse(fn, obj) {
 }
 
 /**
- * Given a 1-level object of uppercase constants returns
+ * Given a 1-level deep object of uppercased constants returns
  * a nested object using camelCased keys
  *
  * @param {Object} input

@@ -28,10 +28,10 @@
   },
   "homepage": "https://github.com/edus44/joi-env-parse#readme",
   "dependencies": {
-    "joi": "^14.3.1",
-    "lodash": "^4.17.11"
+    "@hapi/joi": "^16.1.7",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^24.9.0"
   }
 }

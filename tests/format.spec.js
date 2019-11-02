@@ -1,5 +1,5 @@
 const { format } = require('..')
-const joi = require('joi')
+const joi = require('@hapi/joi')
 
 describe('format', () => {
   it('should camel-case keys', () => {
